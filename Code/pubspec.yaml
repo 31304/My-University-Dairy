@@ -1,0 +1,51 @@
+name: sami_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  get: ^4.6.5
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^0.22.0
+  intl: ^0.17.0
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+  url_launcher: ^6.0.9
+  dropdown_button2: ^1.9.1
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+  flutter_launcher_icons: "^0.9.0"
+
+flutter_icons:
+  image_path: "icon/1.png" 
+  android: true
+  ios: true
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
+    - family: Praise
+      fonts: 
+        - asset: assets/fonts/PraiseRegular.ttf
+          weight: 400
+    - family: Arya
+      fonts: 
+        - asset: assets/fonts/AryaRegular.ttf
+          weight: 400
+    - family: Cookie
+      fonts: 
+        - asset: assets/fonts/CookieRegular.ttf
+          weight: 400

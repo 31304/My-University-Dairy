@@ -1,0 +1,1 @@
+class Announcements2AdminModel {}

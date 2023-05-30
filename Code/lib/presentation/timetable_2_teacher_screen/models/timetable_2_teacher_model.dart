@@ -1,0 +1,1 @@
+class Timetable2TeacherModel {}
